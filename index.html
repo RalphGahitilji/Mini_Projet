@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/sub.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <p align="center">Inscription des apprenant.e.s de la P04 SIMPLON</p>
+        </div>
+        <form method="POST" action="page.php">
+            <div class="form-control">
+                <label for="">NOM</label>
+                <input type="text" name="nom" id="username" placeholder="Entrer votre nom" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="">Prénom(s)</label>
+                <input type="text" name="prenom" id="username" placeholder="Entrer votre Prénom.s" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="">Date de naissance</label>
+                <input type="date" name="birth" id="birth">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <input type="submit" value='Enregistrer' class="btn">
+        </form>
+    </div>
+</body>
+</html><br><br>
